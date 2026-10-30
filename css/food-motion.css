@@ -1,0 +1,56 @@
+body {
+  position: relative;
+  isolation: isolate;
+  overflow-x: hidden;
+  background-color: #fff9f0;
+}
+
+body::before,
+body::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  background-image: url("../images/food-pattern.svg");
+  background-repeat: repeat;
+}
+
+body::before {
+  background-size: 520px 520px;
+  opacity: 0.38;
+  animation: foodFloatOne 55s linear infinite;
+}
+
+body::after {
+  background-size: 680px 680px;
+  background-position: 190px 120px;
+  opacity: 0.19;
+  animation: foodFloatTwo 75s linear infinite;
+}
+
+@keyframes foodFloatOne {
+  from { background-position: 0 0; }
+  to { background-position: 180px -260px; }
+}
+
+@keyframes foodFloatTwo {
+  from { background-position: 190px 120px; }
+  to { background-position: -150px 300px; }
+}
+
+.site-header,
+main,
+footer {
+  position: relative;
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body::before,
+  body::after {
+    animation: none;
+  }
+}

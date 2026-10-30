@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="520" viewBox="0 0 520 520">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+    <!-- Pizza -->
+    <g transform="translate(65 65) rotate(-18)" stroke="#c9362d">
+      <path d="M0 0 L105 25 L28 105 Z" fill="#ffd66b"/>
+      <path d="M12 12 L85 30 L30 83 Z" stroke="#fff8e9" stroke-width="3"/>
+      <circle cx="37" cy="37" r="7" fill="#c9362d"/>
+      <circle cx="55" cy="49" r="6" fill="#c9362d"/>
+      <path d="M45 68 q10 -15 20 0" stroke="#267747"/>
+    </g>
+    <!-- Burger -->
+    <g transform="translate(335 65) rotate(12)" stroke="#267747">
+      <path d="M0 43 C5 -5 105 -5 110 43 Z" fill="#f3bd58"/>
+      <path d="M0 49 H110" stroke="#c9362d" stroke-width="8"/>
+      <path d="M5 61 Q55 78 105 61 L98 82 H12 Z" fill="#e8a34b"/>
+      <path d="M12 48 q12 -10 24 0 t24 0 t24 0 t20 0" stroke="#fff4cf"/>
+      <circle cx="30" cy="22" r="2" fill="#fff8e9"/>
+      <circle cx="60" cy="15" r="2" fill="#fff8e9"/>
+      <circle cx="83" cy="27" r="2" fill="#fff8e9"/>
+    </g>
+    <!-- Tomato -->
+    <g transform="translate(80 300) rotate(15)" stroke="#c9362d">
+      <path d="M48 15 C8 -2 -8 35 8 70 C22 105 78 105 92 70 C108 35 88 -2 48 15Z" fill="#e85b45"/>
+      <path d="M48 17 Q35 -5 24 4 Q40 7 48 22 Q57 4 75 4 Q61 -4 48 17Z" fill="#267747"/>
+      <path d="M48 18 L48 6" stroke="#267747"/>
+    </g>
+    <!-- Fries -->
+    <g transform="translate(350 290) rotate(-10)" stroke="#c58b2e">
+      <path d="M12 35 L22 0 M35 35 L39 -8 M58 35 L68 2 M80 35 L91 -5" stroke="#e9b94f" stroke-width="11"/>
+      <path d="M5 35 H100 L88 105 Q52 120 17 105 Z" fill="#d94a3c" stroke="#c9362d"/>
+      <path d="M22 57 Q53 70 85 57" stroke="#fff1dc" stroke-width="3"/>
+    </g>
+    <!-- Cheese -->
+    <g transform="translate(230 430) rotate(14)" stroke="#c58b2e">
+      <path d="M0 10 L90 0 L78 68 L0 82 Z" fill="#ffd66b"/>
+      <circle cx="25" cy="35" r="7" fill="#fff2c7"/>
+      <circle cx="58" cy="22" r="6" fill="#fff2c7"/>
+      <circle cx="52" cy="57" r="8" fill="#fff2c7"/>
+    </g>
+    <!-- Basil -->
+    <g transform="translate(420 430) rotate(-25)" stroke="#267747">
+      <path d="M5 65 Q35 5 80 8 Q75 55 5 65Z" fill="#8bbd69"/>
+      <path d="M5 65 Q40 38 80 8"/>
+      <path d="M32 46 L27 22 M48 34 L61 40"/>
+    </g>
+  </g>
+</svg>
