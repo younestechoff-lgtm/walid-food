@@ -545,3 +545,46 @@ footer p {
     border-radius: 18px;
   }
 }
+
+/* WALID CANDIDACY CARD - VISIBILITY FIX */
+main .candidacy-section {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative;
+  z-index: 5;
+  width: calc(100% - 32px);
+  max-width: 850px;
+  margin: 55px auto !important;
+}
+
+main .candidacy-card {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative;
+  padding: 35px 22px !important;
+  background: #fffdf8 !important;
+  border: 2px solid #176b3b !important;
+  border-radius: 22px !important;
+  box-shadow: 0 12px 35px rgba(32,32,25,.12) !important;
+  text-align: center;
+}
+
+main .candidacy-card h2 {
+  display: block !important;
+  color: #202019 !important;
+  font-family: 'Cairo', sans-serif;
+  font-size: clamp(23px, 5vw, 32px) !important;
+  font-weight: 900 !important;
+  margin: 0 0 12px !important;
+}
+
+main .candidacy-card p {
+  display: block !important;
+  color: #176b3b !important;
+  font-family: 'Cairo', sans-serif;
+  font-size: clamp(15px, 3.5vw, 19px) !important;
+  font-weight: 700 !important;
+  margin: 0 !important;
+}
