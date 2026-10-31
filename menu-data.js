@@ -9,7 +9,7 @@ const menu = [
   {
     category: "🌮 الطاكوس",
     items: [
-      { name: "طاكوس دجاج", price: 350, image: "images/foods/طاكوس دجاج.jpeg" },
+      { name: "طاكوس ماريني", price: 350, image: "images/foods/طاكوس دجاج.jpeg" },
       { name: "طاكوس كبدة", price: 350, image: "images/foods/طاكوس كبدة.jpeg" }
     ]
   },
